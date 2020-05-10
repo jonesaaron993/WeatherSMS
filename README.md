@@ -2,15 +2,15 @@
 Sends weather data via SMS
 
 In order to send SMS messages, I use the service Twilio.
-![Image of Twilio](https://www.twilio.com/marketing/bundles/company-brand/img/logos/red/twilio-logo-red.png)
+![Image of Twilio](https://cdn.statically.io/img/s8754.pcdn.co/wp-content/uploads/edd/2017/08/twilio-ninja-forms-logo.png?quality=70)
 
 I followed this tutorial, but altered some formatting and functions they used.
 
 https://www.twilio.com/blog/2016/04/how-to-send-a-text-message-with-python.html
 
-**IMPORTANT:** Initially Twilio is free, but eventually you will have to pay for their service. I run this python script once a day to give me the weather in my area, which amounts to 0.01 per SMS.
+**IMPORTANT:** Initially Twilio is free, but eventually you will have to pay for their service. I run this python script once a day to give me the weather in my area, which amounts to 0.01&#65504; per SMS.
 
-To get the weather for my location, I used [pyowm](https://github.com/csparpa/pyowm), which is a wrapper of [OpenWeatherMap](https://openweathermap.org/)
+To get the weather for my location, I used [pyowm](https://github.com/csparpa/pyowm), which is a wrapper of [OpenWeatherMap](https://openweathermap.org/).
 
 Pyowm             |  OpenWeatherMap
 :-------------------------:|:-------------------------:
@@ -30,7 +30,7 @@ owm = pyowm.OWM('API KEY')
 observation = owm.weather_at_place('CITY,COUNTRY')
 ```
 
-And the message function
+And the message function.
 ```
 #Send Message
 client.messages.create(from_='TWILIO NUMBER', to='YOUR NUMBER', 
