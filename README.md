@@ -5,6 +5,7 @@ In order to send SMS messages, I use the service Twilio.
 ![Image of Twilio](https://www.twilio.com/marketing/bundles/company-brand/img/logos/red/twilio-logo-red.png)
 
 I followed this tutorial, but altered some formatting and functions they used.
+
 https://www.twilio.com/blog/2016/04/how-to-send-a-text-message-with-python.html
 
 **IMPORTANT:** Initially Twilio is free, but eventually you will have to pay for their service. I run this python script once a day to give me the weather in my area, which amounts to 0.01 per SMS.
