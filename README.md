@@ -8,7 +8,7 @@ I followed this tutorial, but altered some formatting and functions they used.
 
 https://www.twilio.com/blog/2016/04/how-to-send-a-text-message-with-python.html
 
-**IMPORTANT:** Initially Twilio is free, but eventually you will have to pay for their service. I run this python script once a day to give me the weather in my area, which amounts to 0.01&#65504; per SMS.
+**IMPORTANT:** Initially Twilio is free, but eventually you will have to pay for their service. I run this python script once a day to give me the weather in my area, which amounts to 0.01&#65504; per SMS. Since Twilio gives you around $15 of free starting cash, you can send about 150,000 SMS if you only send one per day.
 
 To get the weather for my location, I used [pyowm](https://github.com/csparpa/pyowm), which is a wrapper of [OpenWeatherMap](https://openweathermap.org/).
 
