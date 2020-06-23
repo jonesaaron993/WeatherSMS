@@ -26,7 +26,7 @@ token = 'TOKEN ID'
 #API key for pyowm
 owm = pyowm.OWM('API KEY')
 
-#Get location data for the relevent area
+#Get location data for the relevant area
 observation = owm.weather_at_place('CITY,COUNTRY')
 ```
 **IMPORTANT:** Make sure to format your country in the `COUNTRY` tag to your country's abbreviations. I.e, if you are in the United States, format it to `US`.
